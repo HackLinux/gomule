@@ -38,11 +38,6 @@ func init() {
 }
 
 func main() {
-    if len(os.Args) == 1 {
-        fmt.Println("Usage: gomule [options]")
-        return
-    }
-
     if os.Args[1] == "-v" {
         fmt.Println("GoMule server Version 1.0")
         fmt.Println("Copyright 2013 Leslie Zhai")
